@@ -1,0 +1,14 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  padding-top: 8%;
+  place-items: center;
+
+  &__footer {
+    font-size: $text-size-secondary;
+  }
+
+  &__language {
+    color: $button-bg-color;
+  }
+}

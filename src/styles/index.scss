@@ -1,3 +1,14 @@
-body {
-  background-color: rgb(151, 255, 168);
-}
+@import "./utils/vars";
+@import "./utils/reset";
+@import "./utils/normalize";
+@import "./utils/mixins";
+
+@import "./blocks/page";
+@import "./blocks/logo";
+@import "./blocks/header";
+@import "./blocks/nav";
+@import "./blocks/main";
+@import "./blocks/searching";
+@import "./blocks/footer";
+@import "./blocks/brand";
+@import "./blocks/icon";
