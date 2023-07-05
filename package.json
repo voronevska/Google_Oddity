@@ -1,8 +1,8 @@
 {
-  "name": "Google_Oddity",
+  "name": "google_oddity",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://voronevska.github.io/Google_Oddity",
+  "homepage": "https://voronevska.github.io/google_oddity",
   "scripts": {
     "lint:bem": "bemlint src/**/*.html",
     "lint:html": "linthtml src/**/*.html",
@@ -10,19 +10,19 @@
     "lint:styles": "stylelint src/**/*.scss",
     "test": "npm run lint:bem && npm run lint:styles",
     "start": "parcel src/*.html --open --hmr-port 1000",
-    "build": "parcel build src/*.html --public-url /Google_Oddity/",
+    "build": "parcel build src/*.html --public-url /google_oddity/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/voronevska/Google_Oddity.git"
+    "url": "git+https://github.com/voronevska/google_oddity.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/voronevska/Google_Oddity/issues"
+    "url": "https://github.com/voronevska/google_oddity/issues"
   },
   "dependencies": {
     "-": "0.0.1",
