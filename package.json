@@ -1,0 +1,58 @@
+{
+  "name": "pure_html-scss-linters-gulp_template",
+  "version": "2.0.0",
+  "description": "",
+  "homepage": "https://voronevska.github.io/pure_html-scss-linters-gulp_template",
+  "scripts": {
+    "lint:bem": "bemlint src/**/*.html",
+    "lint:html": "linthtml src/**/*.html",
+    "lint:gulp": "gulp lint",
+    "lint:styles": "stylelint src/**/*.scss",
+    "test": "npm run lint:bem && npm run lint:gulp && npm run lint:styles && npm run lint:html",
+    "start": "parcel src/*.html --open",
+    "build": "parcel build src/*.html --public-url /pure_html-scss-linters-gulp_template/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voronevska/pure_html-scss-linters-gulp_template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/voronevska/pure_html-scss-linters-gulp_template/issues"
+  },
+  "dependencies": {
+    "-": "0.0.1",
+    "modern-normalize": "^1.1.0"
+  },
+  "devDependencies": {
+    "@linthtml/linthtml": "^0.9.5",
+    "@parcel/transformer-sass": "^2.6.0",
+    "@typescript-eslint/eslint-plugin": "^5.60.1",
+    "bemlint": "^1.7.0",
+    "eslint": "^8.44.0",
+    "eslint-config-standard-with-typescript": "^36.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.32.2",
+    "gh-pages": "^5.0.0",
+    "gulp": "^4.0.2",
+    "gulp-htmllint": "0.0.19",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4",
+    "sass": "^1.63.6",
+    "stylelint": "^15.9.0",
+    "stylelint-config": "^0.1.1",
+    "stylelint-config-property-sort-order-smacss": "^9.1.0",
+    "stylelint-config-recommended-scss": "^12.0.0",
+    "stylelint-scss": "^5.0.1",
+    "typescript": "^5.1.6"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}

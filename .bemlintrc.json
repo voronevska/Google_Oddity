@@ -1,0 +1,8 @@
+{
+  "preset": "linthtml",
+  "rules": {
+    "block-name": ["error", "kebab-case"],
+    "element-name": ["error", "kebab-case"],
+    "modifier-name": ["error", "camelCase"]
+  }
+}
