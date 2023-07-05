@@ -585,6 +585,6 @@ function changeBrand() {
     });
 }
 
-},{}]},["2chAI","fFaKF"], "fFaKF", "parcelRequirea118")
+},{}]},["2chAI","fFaKF"], "fFaKF", "parcelRequire3812")
 
 //# sourceMappingURL=index.0fbc91cd.js.map
