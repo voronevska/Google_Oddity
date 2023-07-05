@@ -1,0 +1,30 @@
+.logo {
+  position: relative;
+  width: 30%;
+  height: 132px;
+  margin-bottom: 20px;
+
+  &__image {
+    position: absolute;
+    top: 0;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+
+    &--hidden {
+      opacity: 0;
+      transform: translateX(-100%);
+      transition-property: opacity, transform;
+      transition-duration: $transition-duration*2;
+    }
+  }
+}
+
+#logo__image--google {
+  width: 70%;
+  left: 15%;
+}
+
+#logo__image--oddity {
+  top: -20px;
+}

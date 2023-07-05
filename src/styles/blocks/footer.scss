@@ -1,0 +1,22 @@
+.footer {
+  background-color: $bg-color-secondary;
+  color: $text-color-secondary;
+
+  &__location {
+    padding: 16px 36px;
+    border-bottom: 1px solid $border-color;
+  }
+
+  &__navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+
+  &__link {
+    padding: 16px;
+    color: $text-color-secondary;
+
+    @include underline-hover($text-color-secondary);
+  }
+}

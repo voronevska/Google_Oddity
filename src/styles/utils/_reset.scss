@@ -1,0 +1,26 @@
+body,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+}
+
+input {
+  all: unset;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}

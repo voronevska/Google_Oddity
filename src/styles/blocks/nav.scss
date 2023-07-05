@@ -1,0 +1,42 @@
+.nav {
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  &__link {
+    color: $text-color-main;
+    font-size: $text-size-secondary;
+
+    @include underline-hover($text-color-main);
+  }
+
+  &__services-button {
+    display: flex;
+    place-items: center;
+    place-content: center;
+    width: 36px;
+    height: 36px;
+    padding: 6px;
+    border-radius: 50%;
+    
+    &:hover {
+      background-color: $bg-color-secondary;
+    }
+  }
+
+  &__asign-button {
+    margin: 0 8px;
+    padding: 8px 24px;
+    color: $button-text-color;
+    background-color: $button-bg-color;
+    border-radius: $border-radius;
+    box-shadow: none;
+
+    &:hover {
+      background-color: $button-bg-color--hov;
+      box-shadow: 0 1px 3px 1px rgba(0,0,0,.15), 0 1px 2px rgba(0,0,0,.3);;
+    }
+  }
+}
