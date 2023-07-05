@@ -7,6 +7,10 @@ function changeBrand() {
     brands.forEach((brand)=>{
         brand.classList.toggle("brand--hidden");
     });
+    const body = document.querySelector("body");
+    const currentTheme = body.getAttribute("data-theme");
+    const newTheme = currentTheme === "oddity" ? "" : "oddity";
+    body.setAttribute("data-theme", newTheme);
 }
 
 //# sourceMappingURL=index.6a31943b.js.map
