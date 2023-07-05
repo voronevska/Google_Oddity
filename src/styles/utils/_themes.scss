@@ -1,0 +1,48 @@
+:root {
+  --bg-color-main: #fff;
+  --bg-color-secondary: #eff2f5;
+
+  --text-color-main: #202124;
+  --text-color-secondary: #4a4c4e;
+  --text-size-main: 0.95em;
+  --text-size-secondary: 0.9em;
+
+  --button-bg-color: #1a73e8;
+  --button-bg-color--hov: #1b66c9;
+  --button-border-color--hov: #d2d5d9;
+  --button-text-color: #fff;
+
+  --neon:
+      0 0 1px rgba(210, 213, 217, 0.8),
+      0 0 4px rgba(210, 213, 217, 0.8),
+      0 0 8px rgba(210, 213, 217, 0.8);
+  --border-color: #d2d5d9;
+  --border-radius: 4px;
+
+  --transition-duration: 0.3s;
+}
+
+[data-theme="oddity"] {
+  --bg-color-main: #0f0f0f;
+  --bg-color-secondary: #1C1C1C;
+
+  --text-color-main: #fff;
+  --text-color-secondary: #909090;
+  --text-size-main: 0.95em;
+  --text-size-secondary: 0.9em;
+
+  --button-bg-color: #d3da54;
+  --button-bg-color--hov: #b8c03a;
+  --button-border-color--hov: #b8c03a;
+  --button-text-color: #0f0f0f;
+
+  --neon:
+      0 0 1px rgba(92, 97, 18, 0.6),
+      0 0 4px rgba(184, 192, 58, 0.6),
+      0 0 8px rgba(184, 192, 58, 0.6);
+
+  --border-color: #333333;
+  --border-radius: 4px;
+
+  --transition-duration: 0.3s;
+}

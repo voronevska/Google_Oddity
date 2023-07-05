@@ -1,15 +1,19 @@
-$bg-color-secondary: #eff2f5;
+$bg-color-main: var(--bg-color-main);
+$bg-color-secondary: var(--bg-color-secondary);
 
-$text-color-main: #202124;
-$text-color-secondary: #66686b;
-$text-size-main: 0.95em;
-$text-size-secondary: 0.9em;
+$text-color-main: var(--text-color-main);
+$text-color-secondary: var(--text-color-secondary);
+$text-size-main: var(--text-size-main);
+$text-size-secondary: var(--text-size-secondary);
 
-$button-bg-color: #1a73e8;
-$button-bg-color--hov: #1b66c9;
-$button-text-color: #fff;
+$button-bg-color: var(--button-bg-color);
+$button-bg-color--hov: var(--button-bg-color--hov);
+$button-border-color--hov: var(--button-border-color--hov);
+$button-text-color: var(--button-text-color);
 
-$border-color: #d2d5d9;
-$border-radius: 4px;
+$neon: var(--neon);
 
-$transition-duration: 0.3s;
+$border-color: var(--border-color);
+$border-radius: var(--border-radius);
+
+$transition-duration: var(--transition-duration);

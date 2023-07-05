@@ -15,7 +15,7 @@
       opacity: 0;
       transform: translateX(-100%);
       transition-property: opacity, transform;
-      transition-duration: $transition-duration*2;
+      transition-duration: $transition-duration;
     }
   }
 }
