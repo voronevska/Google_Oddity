@@ -1,4 +1,4 @@
-[DEMO](https://voronevska.github.io/Google_Oddity/)
+[DEMO](https://voronevska.github.io/google_oddity/)
 
 Time spent on primary task (layout and logo modification): 3h
 
