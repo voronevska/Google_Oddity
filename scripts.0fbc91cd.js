@@ -142,13 +142,13 @@
       this[globalName] = mainExports;
     }
   }
-})({"2yBhQ":[function(require,module,exports) {
+})({"2chAI":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = 1000;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d6ea1d42532a7575";
-module.bundle.HMR_BUNDLE_ID = "7055c94b59712999";
+module.bundle.HMR_BUNDLE_ID = "6e8a5cd20fbc91cd";
 "use strict";
 /* global HMR_HOST, HMR_PORT, HMR_ENV_HASH, HMR_SECURE, chrome, browser, __parcel__import__, __parcel__importScripts__, ServiceWorkerGlobalScope */ /*::
 import type {
@@ -573,8 +573,18 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
     });
 }
 
-},{}],"4M6V8":[function(require,module,exports) {
+},{}],"fFaKF":[function(require,module,exports) {
+function changeBrand() {
+    const { classList: googleClassList } = document.querySelector("#logo__image--google");
+    const { classList: oddityClassList } = document.querySelector("#logo__image--oddity");
+    const brands = document.querySelectorAll(".brand");
+    googleClassList.toggle("logo__image--hidden");
+    oddityClassList.toggle("logo__image--hidden");
+    brands.forEach((brand)=>{
+        brand.classList.toggle("brand--hidden");
+    });
+}
 
-},{}]},["2yBhQ","4M6V8"], "4M6V8", "parcelRequirea118")
+},{}]},["2chAI","fFaKF"], "fFaKF", "parcelRequirea118")
 
-//# sourceMappingURL=Google_Oddity.59712999.js.map
+//# sourceMappingURL=scripts.0fbc91cd.js.map
