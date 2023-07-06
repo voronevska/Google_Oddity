@@ -1,6 +1,6 @@
 .logo {
   position: relative;
-  width: 30%;
+  width: 70%;
   height: 132px;
   margin-bottom: 20px;
 
@@ -10,19 +10,22 @@
     object-fit: contain;
     width: 100%;
     height: 100%;
+    transform: scale(1);
+    transition-property: opacity, transform;
+    transition-duration: $transition-duration;
 
     &--hidden {
       opacity: 0;
-      transform: translateX(-100%);
-      transition-property: opacity, transform;
-      transition-duration: $transition-duration;
+      transform: scale(0);
     }
   }
 }
 
 #logo__image--google {
-  width: 70%;
-  left: 15%;
+  @include onTablet {
+    width: 70%;
+    left: 15%;
+  }
 }
 
 #logo__image--oddity {

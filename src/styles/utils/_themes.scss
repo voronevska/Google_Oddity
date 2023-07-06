@@ -16,10 +16,8 @@
       0 0 1px rgba(210, 213, 217, 0.8),
       0 0 4px rgba(210, 213, 217, 0.8),
       0 0 8px rgba(210, 213, 217, 0.8);
-  --border-color: #d2d5d9;
-  --border-radius: 4px;
 
-  --transition-duration: 0.3s;
+  --border-color: #d2d5d9;
 }
 
 [data-theme="oddity"] {
@@ -42,7 +40,4 @@
       0 0 8px rgba(184, 192, 58, 0.6);
 
   --border-color: #333333;
-  --border-radius: 4px;
-
-  --transition-duration: 0.3s;
 }

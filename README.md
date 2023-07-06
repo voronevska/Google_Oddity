@@ -9,3 +9,5 @@ Technologies used:
 
 Functionality:
 - Changing the logo accordingly when pressing the button "Мені пощастить!"
+- Added theme for Oddity
+- Adaptive & Flexible layout

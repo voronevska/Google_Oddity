@@ -2,7 +2,11 @@
   &__list {
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 8px;
+
+    @include onTablet {
+      gap: 16px;
+    }
   }
 
   &__link {

@@ -1,16 +1,28 @@
 .searching {
-  width: 40%;
+  width: 90%;
   margin-bottom: 20px;
+
+  @include onTablet {
+    width: 70%;
+  }
+
+  @include onDesktop {
+    width: 40%;
+  }
 
   &__area {
     display: flex;
-    gap: 16px;
+    gap: 8px;
     width: 100%;
     margin-bottom: 20px;
     padding: 0 16px;
     border: 1px solid $border-color;
     border-radius: 32px;
     transition: box-shadow $transition-duration;
+
+    @include onTablet {
+      gap: 16px;
+    }
 
     &:hover {
       box-shadow: $neon;

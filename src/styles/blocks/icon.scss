@@ -5,4 +5,12 @@
   &--button {
     cursor: pointer;
   }
+
+  &--desktop-only {
+    display: none;
+
+    @include onDesktop {
+      display: auto;
+    }
+  }
 }

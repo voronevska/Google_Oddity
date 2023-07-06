@@ -1,22 +1,54 @@
 .footer {
+  padding-bottom: 8px;
   background-color: $bg-color-secondary;
   color: $text-color-secondary;
 
   &__location {
-    padding: 16px 36px;
+    padding: 8px 14px;
     border-bottom: 1px solid $border-color;
+
+    @include onTablet {
+      padding: 16px 36px;
+    }
   }
 
   &__navigation {
     display: flex;
+    gap: 4px;
     justify-content: space-between;
-    padding: 0 20px;
+    padding: 0 10px;
+
+    @include onTablet {
+      padding: 0 24px;
+    }
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+
+    @include onDesktop {
+      flex-direction: row;
+    }
+
+    &--row {
+      @include onTablet {
+        flex-direction: row;
+      }
+    }
   }
 
   &__link {
-    padding: 16px;
+    padding: 4px;
     color: $text-color-secondary;
 
     @include underline-hover($text-color-secondary);
+    @include onTablet {
+      padding: 8px;
+    }
+
+    @include onDesktop {
+      padding: 16px;
+    }
   }
 }
