@@ -1,14 +1,18 @@
 .footer {
-  padding-bottom: 8px;
+  padding: 8px 16px;
   background-color: $bg-color-secondary;
   color: $text-color-secondary;
 
+  @include onTablet {
+    padding: 16px 36px 0;
+  }
+
   &__location {
-    padding: 8px 14px;
+    padding-bottom: 8px;
     border-bottom: 1px solid $border-color;
 
     @include onTablet {
-      padding: 16px 36px;
+      padding-bottom: 16px;
     }
   }
 
@@ -16,10 +20,14 @@
     display: flex;
     gap: 4px;
     justify-content: space-between;
-    padding: 0 10px;
 
     @include onTablet {
-      padding: 0 24px;
+      flex-direction: row;
+      padding: 8px 0;
+    }
+
+    @include onDesktop {
+      padding: 0;
     }
   }
 
@@ -27,28 +35,30 @@
     display: flex;
     flex-direction: column;
 
-    @include onDesktop {
+    @include onTablet {
       flex-direction: row;
+      justify-content: center;
+      gap: 8px;
     }
 
-    &--row {
-      @include onTablet {
-        flex-direction: row;
-      }
+    @include onDesktop {
+      flex-direction: row;
+      justify-content: space-between;
+      gap: 16px;
     }
   }
 
   &__link {
-    padding: 4px;
+    padding: 8px 0;
     color: $text-color-secondary;
 
     @include underline-hover($text-color-secondary);
     @include onTablet {
-      padding: 8px;
+      padding: 8px 0;
     }
 
     @include onDesktop {
-      padding: 16px;
+      padding: 16px 0;
     }
   }
 }
